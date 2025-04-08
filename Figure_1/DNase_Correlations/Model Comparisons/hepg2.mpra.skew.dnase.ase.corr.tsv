@@ -1,0 +1,2 @@
+feature	model	cell_type	pearson	test_set
+hepg2_skew_pred	MPRA	HEPG2	0.4486704045567298	DNase

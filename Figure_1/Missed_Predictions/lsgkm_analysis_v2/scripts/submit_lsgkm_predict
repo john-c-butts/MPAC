@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#SBATCH --job-name=train_lsgkm
+#SBATCH -N 1
+#SBATCH --time=48:00:00
+#SBATCH --mem=32G
+#SBATCH --mail-user=john.butts@jax.org
+#SBATCH --mail-type=END,FAIL
+
+python lsgkm_predict.py

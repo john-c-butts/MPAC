@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#SBATCH --job-name=modsico_reports
+#SBATCH -N 1
+#SBATCH --time=48:00:00
+#SBATCH --mem=16G
+#SBATCH --mail-user=john.butts@jax.org
+#SBATCH --mail-type=END,FAIL
+
+python modisco_reports.py

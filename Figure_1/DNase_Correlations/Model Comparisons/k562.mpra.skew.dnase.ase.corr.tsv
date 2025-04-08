@@ -1,0 +1,2 @@
+feature	model	cell_type	pearson	test_set
+k562_skew_pred	MPRA	K562	0.4715581896906348	DNase
