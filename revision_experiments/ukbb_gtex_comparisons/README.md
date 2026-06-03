@@ -19,10 +19,12 @@ are included following revision of the original manuscript.
 | `analysis/gtex_sklearn_prc_no_act_filter_with_indels_CRE_rev1_v1.pdf` | Supp. Fig. XX |
 | `analysis/ukbb_sklearn_prc_no_act_filter_with_indels_CRE_rev1_v1.pdf` | Supp. Fig. XX |
 
+**Note:** Figure outputs are not committed to this repository.
+
 ## Pipeline
 
 ### Step 1 — Prepare per-chromosome input files
-**Script:** `scripts/chrom_specifc_vcfs.ipynb`
+**Script:** `scripts/chrom_specific_vcfs.ipynb`
 
 Reads the blacklist-filtered MPRA + fine-mapping annotation table and splits it into
 per-chromosome TSV files used as input to the MPAC prediction pipeline.
@@ -102,7 +104,9 @@ producing one score file per cell type per cohort.
 
 ## Analysis notebooks
 
-### `analysis/Empirical_MPRA_v_MPAC_Scatters_v5.ipynb`
+All analysis notebooks are located in `scripts/`.
+
+### `scripts/Empirical_MPRA_v_MPAC_Scatters_v5.ipynb`
 
 Compares MPAC predicted element activity and allelic skew to empirical MPRA measurements
 across the full UKBB/GTEx variant set (SNPs + indels). Generates activity correlation
@@ -115,7 +119,7 @@ cell type, plus per-indel-length correlation breakdowns.
 
 ---
 
-### `analysis/UKBB_GTEx_PRC_v5.ipynb`
+### `scripts/UKBB_GTEx_PRC_v5.ipynb`
 
 Generates precision-recall curves comparing MPAC against empirical emVar calls, Sei DNase
 predictions, and deltaSVM for identifying fine-mapped causal variants in the GTEx

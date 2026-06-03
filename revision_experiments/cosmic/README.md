@@ -34,11 +34,11 @@ models. Requires GPU access (V100 partition, ~6 h walltime per chromosome).
 ---
 
 ### Step 2 — Concatenate and reformat predictions
-**Script:** `processed_data/mpac_preds/concat_all_preds.py`
 
 Concatenates per-chromosome prediction VCFs, filters for variants with ref and alt
 alleles ≤10 bp, and reformats the INFO field into named prediction columns
 (k562_ref_pred, k562_alt_pred, k562_skew_pred, etc.).
+Concatenation script is not committed to this repository (lives in the data directory).
 
 **Input:** `processed_data/mpac_preds/chr{1-22}_cosmic_wgs_v98.vcf`  
 **Output:** `processed_data/mpac_preds/all.cosmic.v98.with.10bp.indels.017.vcf`

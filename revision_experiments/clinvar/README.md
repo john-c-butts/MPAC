@@ -42,9 +42,9 @@ per-chromosome TSV files used as input to MPAC predictions.
 ---
 
 ### Step 2 — Concatenate per-chromosome files for VEP
-**Script:** `processed_data/chrom_vcfs/catAllPreds.py`
 
 Concatenates the per-chromosome TSVs into a single VCF file for input to Ensembl VEP.
+Per-chromosome files were concatenated manually (not a committed script).
 
 **Output:** `processed_data/chrom_vcfs/all_exon_filtered_clinvar_preds.vcf`
 
@@ -105,10 +105,9 @@ files in `processed_data/sei_preds/chromatin-profiles-hdf5/`.
 ---
 
 ### Step 7 — Extract Sei DNase predictions
-**Script:** `processed_data/sei_preds/chromatin-profiles-hdf5/sei_h5_to_dnase_tsv.py`
 
 Converts Sei HDF5 output to a TSV by filtering for K562, HepG2, and SK-N-SH DNase
-columns.
+columns. Extraction script is not committed to this repository (lives in the data directory).
 
 **Output:** `raw_data/all_clinvar_20260104_sei_dnase_preds_k562_hepg2_sknsh.tsv`
 
