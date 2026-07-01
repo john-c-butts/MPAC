@@ -12,12 +12,12 @@ are made against Sei DNase predictions. Both SNPs and small indels (≤10 bp) ar
 
 | Output file | Figure |
 |---|---|
-| `figures/clinvar_emVar_proportion_fig_2A_basic_filtered.pdf` | Figure XX |
-| `figures/clinvar_OR_emVar_path_v_benign_Supp_Fig_12A_basic_filtered.pdf` | Supp. Fig. XX |
-| `figures/clinvar_prc_curves_fig_2B_basic_filtered.pdf` | Figure XX |
-| `figures/clinvar_auc_Supp_Fig_12B_basic_filtered.pdf` | Supp. Fig. XX |
-| `figures/clinvar_prc_curves_indels_only_Supp_fig_12C_basic_filtered.pdf` | Supp. Fig. XX |
-| `figures/clinvar_auc_indels_only_Supp_Fig_12D_basic_filtered.pdf` | Supp. Fig. XX |
+| `figures/clinvar_emVar_proportion_fig_2A_basic_filtered.pdf` | Figure 2A |
+| `figures/clinvar_OR_emVar_path_v_benign_Supp_Fig_12A_basic_filtered.pdf` | Supp. Fig. 14A |
+| `figures/clinvar_prc_curves_fig_2B_basic_filtered.pdf` | Figure 2B |
+| `figures/clinvar_auc_Supp_Fig_12B_basic_filtered.pdf` | Supp. Fig. 14B |
+| `figures/clinvar_prc_curves_indels_only_Supp_fig_12C_basic_filtered.pdf` | Supp. Fig. 14C |
+| `figures/clinvar_auc_indels_only_Supp_Fig_12D_basic_filtered.pdf` | Supp. Fig. 14D |
 
 ## Pipeline
 
@@ -123,10 +123,10 @@ with: Meuleman DHS overlap, ENCODE dELS overlap, TF seqlet overlap (K562/HepG2/S
 Variants are stratified into Pathogenic/Likely pathogenic vs. Benign/Likely benign groups.
 
 Produces:
-- Bar plots of emVar proportions by genomic feature and pathogenicity class (Figure XX)
-- Odds ratio plots comparing emVar enrichment in pathogenic vs. benign variants (Supp. Fig. XX)
-- Precision-recall curves comparing MPAC and Sei DNase predictions (Figure XX, Supp. Figs. XX)
-- AUC bar charts with bootstrap confidence intervals for SNPs and indels separately
+- Bar plots of emVar proportions by genomic feature and pathogenicity class (Figure 2A)
+- Odds ratio plots comparing emVar enrichment in pathogenic vs. benign variants (Supp. Fig. 14A)
+- Precision-recall curves comparing MPAC and Sei DNase predictions (Figure 2B, Supp. Fig. 14C)
+- AUC bar charts with bootstrap confidence intervals for SNPs and indels separately (Supp. Figs. 14B, 14D)
 
 **Inputs:**
 - `processed_data/mpac_preds/chr{1-22}_clinvar_20260104.vcf`

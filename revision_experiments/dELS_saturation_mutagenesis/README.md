@@ -15,7 +15,7 @@ ENCODE cCRE annotations and CRISPRi-validated gene links.
 
 | Output file | Figure |
 |---|---|
-| `analyses/figures/mean_ref_activity_violin_with_nonCRE_v4.pdf` | Figure XX |
+| `analyses/figures/mean_ref_activity_violin_with_nonCRE_v4.pdf` | Figure 6A |
 
 **Note:** Figure outputs are not committed to this repository.
 
