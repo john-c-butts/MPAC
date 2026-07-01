@@ -11,13 +11,11 @@ are included following revision of the original manuscript.
 
 | Output file | Figure |
 |---|---|
-| `analysis/fig1b_1c_scatterplots_with_indels_rev1_v1.pdf` | Figure XX |
-| `analysis/k562_activity_corr_by_chrom_with_indels_suppfig1b_rev1_v2.pdf` | Supp. Fig. XX |
-| `analysis/suppfig3a_scatterplots_with_indels_rev1_v1.pdf` | Supp. Fig. XX |
-| `analysis/gtex_sklearn_prc_no_act_filter_with_indels_fig1e_rev1_v1.pdf` | Figure XX |
-| `analysis/ukbb_sklearn_prc_no_act_filter_with_indels_rev1_v1.pdf` | Supp. Fig. XX |
-| `analysis/gtex_sklearn_prc_no_act_filter_with_indels_CRE_rev1_v1.pdf` | Supp. Fig. XX |
-| `analysis/ukbb_sklearn_prc_no_act_filter_with_indels_CRE_rev1_v1.pdf` | Supp. Fig. XX |
+| `analysis/fig1b_1c_scatterplots_with_indels_rev1_v1.pdf` | Figure 1B,C |
+| `analysis/k562_activity_corr_by_chrom_with_indels_suppfig1b_rev1_v2.pdf` | Supp. Fig. 1 |
+| `analysis/suppfig3a_scatterplots_with_indels_rev1_v1.pdf` | Supp. Fig. 3 |
+| `analysis/gtex_sklearn_prc_no_act_filter_with_indels_fig1e_rev1_v1.pdf` | Supp. Fig. 13 |
+| `analysis/ukbb_sklearn_prc_no_act_filter_with_indels_rev1_v1.pdf` | Figure 1E |
 
 **Note:** Figure outputs are not committed to this repository.
 

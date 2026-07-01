@@ -8,17 +8,17 @@ This analysis compares MPAC promoter saturation mutagenesis predictions against 
 
 | Output file | Figure |
 |---|---|
-| `plots/All_promoter_seqlet_counts_v2.pdf` | Figure XX |
-| `plots/mpac_parm_promoterAI_promoter_prediction_correlations_heatmap_v2.pdf` | Figure XX |
-| `plots/mpac_parm_promoterAI_promoter_prediction_concordance_heatmap_v2.pdf` | Supp. Fig. XX |
-| `plots/hits_by_phyloP_ratio_v2.pdf` | Figure XX |
-| `plots/seqlet_positioning_by_model_v2.pdf` | Supp. Fig. XX |
-| `plots/percent_tf_usage_by_model_v2.pdf` | Supp. Fig. XX |
-| `plots/percent_usage_correlation_scatters_v2.pdf` | Supp. Fig. XX |
-| `plots/eQTL_effect_size_comparison_gtex_v10_v3.pdf` | Figure XX |
-| `plots/eQTL_beta_corr_summary_gtex_v10_v2.svg` | Supp. Fig. XX |
-| `plots/eQTL_aurocs_gtex_v10_v2.pdf` | Supp. Fig. XX |
-| `plots/eQTL_auroc_summary_gtex_v10_v2.pdf` | Supp. Fig. XX |
+| `plots/All_promoter_seqlet_counts_v2.pdf` | Figure 4G |
+| `plots/mpac_parm_promoterAI_promoter_prediction_correlations_heatmap_v2.pdf` | Supp. Fig. 34A |
+| `plots/mpac_parm_promoterAI_promoter_prediction_concordance_heatmap_v2.pdf` | Supp. Fig. 34B |
+| `plots/hits_by_phyloP_ratio_v2.pdf` | Figure 4C |
+| `plots/seqlet_positioning_by_model_v2.pdf` | Supp. Fig. 33A |
+| `plots/percent_tf_usage_by_model_v2.pdf` | Supp. Fig. 33C |
+| `plots/percent_usage_correlation_scatters_v2.pdf` | Supp. Fig. 33B |
+| `plots/eQTL_effect_size_comparison_gtex_v10_v3.pdf` | Figure 4B, Supp. Fig. 31B |
+| `plots/eQTL_beta_corr_summary_gtex_v10_v2.svg` | Figure 4B |
+| `plots/eQTL_aurocs_gtex_v10_v2.pdf` | Figure 4A, Supp. Fig. 31A |
+| `plots/eQTL_auroc_summary_gtex_v10_v2.pdf` | Figure 4A |
 
 ## Pipeline
 

@@ -14,7 +14,7 @@ tissue-to-cell-type concordance annotations are appended to each variant.
 
 | Output file | Figure |
 |---|---|
-| Figures produced by `scripts/all_gtex_mechanism_v10.ipynb` | Figure XX / Supp. Fig. XX |
+| Figures produced by `scripts/all_gtex_mechanism_v10.ipynb` | Figure 6C / Supp. Fig. 43 |
 
 **Note:** Figure outputs are not committed to this repository.
 
