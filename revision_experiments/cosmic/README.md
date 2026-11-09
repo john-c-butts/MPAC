@@ -12,9 +12,9 @@ and MPAC activity score. Both SNPs and small indels (≤10 bp) are included.
 
 | Output file | Figure |
 |---|---|
-| `figures/tert_promoter_muts_and_emvar_enrichments_rev1.pdf` | Fig. 2C,D |
-| `figures/promoter_skew_bin_row_all_rev1.pdf` | Fig. 2E |
-| `figures/or_by_skew_bin_and_act_bin_rev1.pdf` | Fig. 2F,G |
+| `figures/tert_promoter_muts_and_emvar_enrichments_rev2.pdf` | Fig. 2C,D |
+| `figures/promoter_skew_bin_row_all_rev3_updated.pdf` | Fig. 2E |
+| `figures/or_by_skew_bin_and_act_bin_rev2_updated.pdf` | Fig. 2F,G |
 
 ## Pipeline
 
