@@ -103,7 +103,7 @@ downstream analysis.
 
 ## Analysis notebook
 
-### `scripts/COSMIC_analysis_v9.ipynb`
+### `scripts/COSMIC_analysis_v10.ipynb`
 
 Loads the fully annotated COSMIC variant table and computes enrichment of predicted
 functional variants (emVars) by genomic feature (DHS, promoter, dELS), activity bin,
